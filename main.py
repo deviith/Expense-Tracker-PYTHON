@@ -63,7 +63,7 @@ def viewexpense():
 
 init()
 root = Tk()
-root.title("ProjectGurukul Expense tracker")
+root.title("My Expense tracker")
 root.geometry('800x600')
 dateLabel = Label(root, text="Date", font=('arial', 15, 'bold'), bg="DodgerBlue2", fg="white", width=12)
 dateLabel.grid(row=0, column=0, padx=7, pady=7)
